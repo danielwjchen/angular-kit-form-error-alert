@@ -1,0 +1,32 @@
+//-
+    Defines <ng-kit-form-error-alert> template
+div.alert(
+    ng-class="'alert-' + (isSystemError() ? 'danger' : 'warning')"
+)
+    p(
+        ng-if="error === true"
+    )
+        | System is not able to complete this action. This could be because the system is too busy, or the internet connection has dropped. Please try again, or contact support.
+    p(
+        ng-if="isString()"
+    )
+        | {{error}}
+    ul(
+        ng-if="isSystemError()"
+    )
+        li(
+            ng-repeat="message in $parent.error.message track by $index"
+        )
+            | {{message}}
+    dl.dl-horizontal(
+        ng-if="!isSystemError() && error !== true && !isString()"
+    )
+        ng-repeat(
+            ng-repeat="(field, messages) in $parent.error track by $index"
+        )
+            dt
+                | {{field}}
+            dd(
+                ng-repeat="message in messages track by $index"
+            )
+                | {{message}}

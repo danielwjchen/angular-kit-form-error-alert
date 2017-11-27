@@ -1,0 +1,19 @@
+{
+  "name": "ng-kit-form-error-alert-example",
+  "version": "1.0.0",
+  "description": "An example shows how to use the <ng-kit-form-error-alert> directive.",
+  "main": "index.js",
+  "keywords": [
+    "angular",
+    "bootstrap"
+  ],
+  "author": "daniel@inquiresimplicity.com",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.11",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "angular-kit-form-error-alert": "file:..",
+    "pug": "^2.0.0-rc.4"
+  }
+}
