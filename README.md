@@ -1,5 +1,5 @@
 # Angular Kit form error alert
-<ng-kit-form-error-alert> is a angular directive built with Bootstrap 3.
+`<ng-kit-form-error-alert>` is a angular directive built with Bootstrap 3.
 
 ## Development
 To create a environment from scratch, install all the following dependencies.
