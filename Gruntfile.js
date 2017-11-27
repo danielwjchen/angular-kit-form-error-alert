@@ -1,5 +1,5 @@
 /**
- * Defines HangarA.com GruntJS tasks.
+ * Defines ng-kit.form-error-alert GruntJS tasks.
  */
 'use strict';
 
