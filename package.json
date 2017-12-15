@@ -1,6 +1,6 @@
 {
   "name": "angular-kit-form-error-alert",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "An angular alert directive built with Bootstrap 3",
   "keywords": [
     "angular",
